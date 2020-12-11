@@ -1,5 +1,5 @@
 ifile = open('input.txt', 'r')
-lines = file.readlines()
+lines = ifile.readlines()
 jlist = [int(i) for i in lines]
 
 jlist.sort()
