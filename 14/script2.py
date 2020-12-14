@@ -10,6 +10,7 @@ lines = [line.split(' = ') for line in lines]
 addys = []
 vals = []
 
+# dumpster fire
 def recurse(mask,addy):
     targets = []
     x = mask.find('X')
